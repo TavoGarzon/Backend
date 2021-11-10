@@ -41,7 +41,7 @@ const onListening = () => {
   const bind = typeof port === "string" ? "pipe " + port : "port " + port;
 };
 
-const port = normalizePort(process.env.PORT || "blooming-scrubland-15594");
+const port = normalizePort(process.env.PORT || "blooming-scrubland-15594.git");
 app.set("port", port);
 
 const server = http.createServer(app);
